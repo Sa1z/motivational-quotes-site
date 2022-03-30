@@ -36,3 +36,35 @@ body {
   width: 100%;
   font-size: 15px;
 }
+
+.btn {
+  display:inline-block;
+  padding:0.5em 3em;
+  border:0.16em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 400;
+  color:#333;
+  text-align: center;
+  transition: all 0.15s;
+  }
+
+  .btn:hover {
+    color:#111;
+    border-color:#DDDDDD;
+  }
+
+  .btn:active {
+    color:#000;
+    border-color:#BBBBBB;
+  }
+
+  @media all and (max-width:30em){
+    .btn {
+    display:block;
+    margin:0.4em auto;
+    }
+  }

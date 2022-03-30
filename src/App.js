@@ -1,10 +1,14 @@
+import { useEffect, useState } from "react";
+
 import Quote from "./Quote";
+import Button from "./Button";
 
 function App() {
   return (
     <>
       <Quote />
-      <footer className="links">footer</footer>
+      <Button />
+      <footer className="links">&copy; 2022</footer>
     </>
   );
 }
