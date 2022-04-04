@@ -1,9 +1,9 @@
 
-const Quote = () => {
+const Quote = ({ quote: { text, author } }) => {
   return (
-    <div className="App">
-        <h1 className="quote-text">"Talent is a pursued interest. Anything that you’re willing to practice, you can do."</h1>
-        <h3 className="author">- Bob Ross</h3>
+    <div className="quote">
+        <h1 className="quote-text">{text}</h1>
+        <h3 className="author">- {(author !== null ? author : 'Proverb')}</h3>
       </div>
   )
 }

@@ -1,8 +1,8 @@
 
-const Button = () => {
+const Button = ({ quote }) => {
   return (
     <div>
-        <button className="btn" onClick={() => {console.log('button works')}}>New Quote</button>
+        
     </div>
   )
 }
